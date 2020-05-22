@@ -5,9 +5,7 @@ using UnityEngine;
 public class FaceOSCrecieveRaw : MonoBehaviour
 {
     public OSC osc;
-
-    public GameObject prefab;
-
+    
     private Vector3[] rawList;
     private int numPts = 66;
 
@@ -24,7 +22,9 @@ public class FaceOSCrecieveRaw : MonoBehaviour
         puntos = new GameObject[numPts];
         for (int i = 0; i < numPts; i++)
         {
-            punto = Instantiate(prefab);
+            //punto = Instantiate(prefab);
+            punto = GameObject.CreatePrimitive(PrimitiveType.Cube);
+            punto.transform.localScale = new Vector3(2.5f, 2.5f, 2.5f);
 
             puntos[i] = punto;
         }
@@ -48,8 +48,6 @@ public class FaceOSCrecieveRaw : MonoBehaviour
             rawList[i] = new Vector3(Xpos, Ypos, 0);
             //print(i+"  "+Xpos+"  "+Ypos);
 
-           // GameObject punto = Instantiate(prefab);
-           // punto.transform.position = new Vector3(Xpos, Ypos, 0);
         }
 
 
