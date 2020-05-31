@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/Raw.unity
+- path: Assets/Scenes/Model3d.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

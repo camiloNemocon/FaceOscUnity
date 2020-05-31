@@ -1,7 +1,8 @@
 
+// This is version 2(2020.05.30)
+// Tested in Unity  2019.3.11
 
-// This is version 1.01(2015.05.27)
-// Tested in Unity 4
+
 // Most of the code is based on a library for the Make Controller Kit1
 
 /*
