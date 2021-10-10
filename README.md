@@ -3,7 +3,7 @@ Unity Face OSC
 
 This project was developed in Unity version 2019, using ofxFaceTracker by kylemcdonald and based on UnityOSC by thomasfrefericks.
 
-To use thisproject in Unity version 2020 or later, you need to update multiplayer and visual studio package.
+To use this project in Unity version 2020 or later, you need to update multiplayer and visual studio package.
 To do this, you need in Unity select:
  window menu -> package manager->visual studio (update button)
  window menu -> package manager->multiplayer (update button)
