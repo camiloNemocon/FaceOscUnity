@@ -3,6 +3,11 @@ Unity Face OSC
 
 This project was developed in Unity version 2019, using ofxFaceTracker by kylemcdonald and based on UnityOSC by thomasfrefericks.
 
+To use thisproject in Unity version 2020 or later, you need to update multiplayer and visual studio package.
+To do this, you need in Unity select:
+ window menu -> package manager->visual studio (update button)
+ window menu -> package manager->multiplayer (update button)
+
 The Face Tracking Aplication can download: https://github.com/kylemcdonald/ofxFaceTracker/releases
 
 Depending of the function (Pose, Gesture or Raw) that use on Face Tracking Aplication (Face OSC), you will open the Unity scene to recognize osc data that are sending from Face OSC to Unity. 
@@ -28,5 +33,6 @@ orientation (which direction you're facing): /pose/orientation
 
 in Script FaceOSCreciveRaw.sc get the following data:
 raw points (66 xy-pairs): /raw
+
 
 
