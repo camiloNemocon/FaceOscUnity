@@ -7,6 +7,7 @@ To use this project in Unity version 2020 or later, you need to update multiplay
 To do this, you need in Unity select:
  window menu -> package manager->visual studio (update button)
  window menu -> package manager->multiplayer (update button)
+ restart this unity project.
 
 The Face Tracking Aplication can download: https://github.com/kylemcdonald/ofxFaceTracker/releases
 
